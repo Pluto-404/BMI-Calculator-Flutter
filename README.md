@@ -1,17 +1,47 @@
-# bmi_kalkulator
+# BMI Calculator – Flutter
 
-A new Flutter project.
+Aplikasi kalkulator Body Mass Index (BMI) berbasis Flutter dan Dart untuk menghitung Indeks Massa Tubuh berdasarkan berat dan tinggi badan pengguna.
 
-## Getting Started
+Project ini dibuat sebagai bagian dari praktikum mata kuliah **Pemrograman Perangkat Bergerak**.
 
-This project is a starting point for a Flutter application.
+## Fitur Aplikasi
 
-A few resources to get you started if this is your first Flutter project:
+- Memilih jenis kelamin (Male/Female).
+- Mengatur tinggi badan menggunakan slider.
+- Menambah dan mengurangi berat badan.
+- Menghitung nilai BMI secara otomatis.
+- Menampilkan kategori BMI dan interpretasi hasil perhitungan.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Teknologi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- Material Design
+- Font Awesome Flutter 11.0.0
+
+## Cara Menjalankan
+
+1. Clone repository:
+   ```bash
+   git clone https://github.com/Pluto-404/BMI-Calculator-Flutter.git
+   ```
+2. Masuk ke direktori project:
+   ```bash
+   cd BMI-Calculator-Flutter
+   ```
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Jalankan aplikasi:
+   ```bash
+   flutter run
+   ```
+
+## Referensi
+
+Project dikembangkan berdasarkan materi praktikum Flutter dari dosen, dengan penyesuaian kompatibilitas terhadap Flutter dan Font Awesome versi terbaru.
+
+## Pengembang
+
+Pluto-404 — Pendidikan Teknik Informatika dan Komputer, Universitas Sebelas Maret.
